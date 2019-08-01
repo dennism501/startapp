@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="net.zulu.StartApp.test" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <instrumentation
+        android:cname="android.support.test.runner.AndroidJUnitRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for net.simplifiedlearning.myheroapp"
+        android:targetPackage="net.simplifiedlearning.myheroapp" />
+
+    <application>
+        <uses-library android:cname="android.test.runner" />
+    </application>
+
+</manifest>

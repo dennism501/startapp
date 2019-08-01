@@ -1,0 +1,4 @@
+#Thu Jul 25 02:53:34 CAT 2019
+base.0=/Users/ETA/Desktop/My stuff/Clients/StartApp accounting/App/StartApp 07.21.20/app/build/intermediates/dex/release/mergeDexRelease/out
+path.0=classes.dex
+renamed.0=classes.dex

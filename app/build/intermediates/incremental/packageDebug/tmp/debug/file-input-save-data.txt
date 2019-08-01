@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Jul 29 16:07:27 CAT 2019
+0.baseType=DIRECTORY
+0.base=/home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+MERGED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dennis/.gradle/caches/transforms-2/files-2.1/088dae4fdbf2cc60c9859f290cc4488b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6e8a4a3bfe89aade03f0ef320605106a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/d86d0cc1fcb380bf6e93fdb48675df0c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+	package
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:3:5-32
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:1-30:12
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:7:5-28:19
+MERGED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dennis/.gradle/caches/transforms-2/files-2.1/088dae4fdbf2cc60c9859f290cc4488b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dennis/.gradle/caches/transforms-2/files-2.1/088dae4fdbf2cc60c9859f290cc4488b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6e8a4a3bfe89aade03f0ef320605106a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6e8a4a3bfe89aade03f0ef320605106a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/d86d0cc1fcb380bf6e93fdb48675df0c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/d86d0cc1fcb380bf6e93fdb48675df0c/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:11:9-54
+	android:icon
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:9:9-43
+	android:allowBackup
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:13:9-40
+	android:usesCleartextTraffic
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:14:9-44
+activity#net.zulu.StartApp.Dashboard
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:15:19-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:19:27-74
+activity#net.zulu.StartApp.ClientList
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:22:9-48
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:22:19-45
+activity#net.zulu.StartApp.AddTransaction
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:23:9-51
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:23:19-49
+uses-library#org.apache.http.legacy
+ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml:26:13-50
+uses-sdk
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dennis/.gradle/caches/transforms-2/files-2.1/088dae4fdbf2cc60c9859f290cc4488b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/dennis/.gradle/caches/transforms-2/files-2.1/088dae4fdbf2cc60c9859f290cc4488b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6e8a4a3bfe89aade03f0ef320605106a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6e8a4a3bfe89aade03f0ef320605106a/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/d86d0cc1fcb380bf6e93fdb48675df0c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/dennis/.gradle/caches/transforms-2/files-2.1/d86d0cc1fcb380bf6e93fdb48675df0c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		ADDED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+		INJECTED from /home/dennis/Documents/School project/StartApp 07.21.20-20190729T083504Z-001/StartApp 07.21.20/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0c14ec22661d76116a8dd73175c464a1/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/6ebc1687dc6a808059f21281facdfe28/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/f1070b3d1257b3b0c4e74b1d9959a887/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dec613e924f50b78884a5819ca66039c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/8e9d26beffa12fed63872ff68d2e9a0e/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/45593c47d46863a5e3e3a38fed6d5669/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/cae9088c5264bf3dd3c041de6d7257ce/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/fdec94bc8fe42b2f014f9d695e66d263/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/0a65c2cfa765421705a86fd5ae6ec534/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/dd38bc15660ba1c7e89256cd2653f781/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/ff8101305bc9e4939d4d6f845b6036d3/AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/462655bf47a09677092893153498a0ed/AndroidManifest.xml:27:13-51
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/dennis/.gradle/caches/transforms-2/files-2.1/27ba61dbfeafbdb9ae0e2e9287478ba2/AndroidManifest.xml:26:13-58
