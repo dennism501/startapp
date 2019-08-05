@@ -180,6 +180,7 @@ public class ClientList extends AppCompatActivity {
         }
 
         RecordAdapter adapter = new RecordAdapter(recordList);
+        adapter.notifyDataSetChanged();
         listView.setAdapter(adapter);
     }
 
@@ -208,7 +209,7 @@ public class ClientList extends AppCompatActivity {
                 JSONObject object = new JSONObject(s);
                 if (!object.getBoolean("error")) {
                     Toast.makeText(getApplicationContext(), object.getString("message"), Toast.LENGTH_SHORT).show();
-                    refreshRecordList(object.getJSONArray("records"));
+                    refreshRecordList(object.getJSONArray("Records"));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();

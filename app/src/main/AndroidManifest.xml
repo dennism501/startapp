@@ -12,15 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Dashboard">
+        <activity android:name=".BudgetActivity"></activity>
+        <activity android:name="net.zulu.startapp.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Dashboard">
+
+        <!--    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+
+        </activity>
         <activity android:name=".ClientList" />
-        <activity android:name=".AddTransaction"/>
+        <activity android:name=".AddTransaction" />
 
         <uses-library
             android:name="org.apache.http.legacy"

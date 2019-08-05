@@ -22,6 +22,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import net.zulu.StartApp.SQLite.Budget;
+import net.zulu.StartApp.SQLite.DbHelper;
+import net.zulu.startapp.LoginActivity;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -38,8 +42,9 @@ public class AddTransaction extends AppCompatActivity {
 
     private static final int CODE_GET_REQUEST = 1024;
     private static final int CODE_POST_REQUEST = 1025;
+    DbHelper db;
 
-    EditText editTextId2, editTextAmount ;
+    EditText editTextId2, editTextAmount, cost;
     Spinner spinnerType, spinnerCname;
     ProgressBar progressBar;
     ListView listView;
@@ -71,16 +76,17 @@ public class AddTransaction extends AppCompatActivity {
         sp=(Spinner)findViewById(R.id.spinnerCname);
         adapter=new ArrayAdapter<String>(this,R.layout.spinner_layout,R.id.txt,listItems);
         sp.setAdapter(adapter);
+        db = new DbHelper(this);
 
         mBtLaunchActivity = (Button) findViewById(R.id.addbutton);
 
-        mBtLaunchActivity.setOnClickListener(new View.OnClickListener() {
+   /*     mBtLaunchActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
                 launchActivity();
             }
-        });
+        });*/
 
 
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build(); StrictMode.setThreadPolicy(policy);
@@ -91,8 +97,7 @@ public class AddTransaction extends AppCompatActivity {
         try {
 
 
-
-            URL url = new URL("http://192.168.64.2/startappphp/Includes/demo_spinner.php");
+            URL url = new URL("http://"+Api.IP+"/startappphp/Includes/demo_spinner.php");
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setRequestMethod("POST");
             urlConnection.connect();
@@ -150,6 +155,7 @@ public class AddTransaction extends AppCompatActivity {
         }
 
         editTextId2 = (EditText) findViewById(R.id.editTextId);
+        cost = findViewById(R.id.editTextAmount1);
         spinnerType = (Spinner) findViewById(R.id.spinnerType);
         spinnerCname = (Spinner) findViewById(R.id.spinnerCname);
         editTextAmount = (EditText) findViewById(R.id.editTextAmount);
@@ -207,6 +213,7 @@ public class AddTransaction extends AppCompatActivity {
         String type = spinnerType.getSelectedItem().toString();
         String cname2 = spinnerCname.getSelectedItem().toString();
         String amount = editTextAmount.getText().toString().trim();
+        String strcost = cost.getText().toString().trim();
 
         if (TextUtils.isEmpty(amount)) {
             editTextAmount.setError("Please enter full amount");
@@ -214,9 +221,14 @@ public class AddTransaction extends AppCompatActivity {
             return;
         }
 
+        List<Budget> list = db.getAmount();
+        list.get(0).setAmount(list.get(0).getAmount()-Integer.parseInt(strcost));
+        db.updateBudget(list.get(0));
+
         HashMap<String, String> params = new HashMap<>();
         params.put("cname2", cname2);
         params.put("amount", amount);
+        params.put("cost",strcost);
         params.put("type", type);
 
         PerformNetworkRequest request = new PerformNetworkRequest(Api.URL_CREATE_TRANSACTION, params, CODE_POST_REQUEST);
@@ -271,17 +283,20 @@ public class AddTransaction extends AppCompatActivity {
 
         for (int i = 0; i < Transactions.length(); i++) {
             JSONObject obj = Transactions.getJSONObject(i);
-
             transactionList.add(new Transaction(
                     obj.getInt("id"),
                     obj.getString("cname2"),
+                    obj.getString("cost"),
                     obj.getString("type"),
-                    obj.getString("amount")
+                    obj.getString("amount"),
+                    obj.getString("created_on")
             ));
         }
 
         TransactionAdapter adapter = new TransactionAdapter(transactionList);
+        adapter.notifyDataSetChanged();
         listView.setAdapter(adapter);
+
     }
 
     private class PerformNetworkRequest extends AsyncTask<Void, Void, String> {
@@ -306,8 +321,8 @@ public class AddTransaction extends AppCompatActivity {
             try {
                 JSONObject object = new JSONObject(s);
                 if (!object.getBoolean("error")) {
-                    Toast.makeText(getApplicationContext(), object.getString("message"), Toast.LENGTH_SHORT).show();
-                    refreshTransactionList(object.getJSONArray("transactions"));
+                    //Toast.makeText(getApplicationContext(), object.getString("message"), Toast.LENGTH_SHORT).show();
+                    refreshTransactionList(object.getJSONArray("Transactions"));
                 }
             } catch (JSONException e) {
                 e.printStackTrace();
@@ -345,6 +360,8 @@ public class AddTransaction extends AppCompatActivity {
             TextView textViewCname2 = listViewItem.findViewById(R.id.textViewCname2);
             TextView textViewType = listViewItem.findViewById(R.id.textViewType);
             TextView textViewAmount = listViewItem.findViewById(R.id.textViewAmount);
+            TextView textView = listViewItem.findViewById(R.id.cost_amount);
+            TextView date = listViewItem.findViewById(R.id.transaction_date);
 
             //TextView textViewUpdate = listViewItem.findViewById(R.id.textViewUpdate);
             //TextView textViewDelete = listViewItem.findViewById(R.id.textViewDelete);
@@ -353,10 +370,10 @@ public class AddTransaction extends AppCompatActivity {
 
             textViewCname2.setText(transaction.getCname2());
             textViewType.setText(transaction.getType());
-            textViewAmount.setText(transaction.getAmount());
+            textViewAmount.setText(transaction.getCost());
+            textView.setText(transaction.getAmount());
 
-
-
+            date.setText(transaction.getDate());
 
             return listViewItem;
         }

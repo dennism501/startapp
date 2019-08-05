@@ -2,7 +2,13 @@
     <string name="app_name">StartApp</string>
 
     <array name="type">
-        <item>Income</item>
-        <item>Cost</item>
+        <item>Transport</item>
+        <item>Service charge</item>
+        <item>Delivery</item>
+        <item>Rent</item>
+        <item>Wages</item>
+        <item>Operation cost</item>
+
     </array>
 </resources>
+

@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Thu Jul 25 02:53:34 CAT 2019
-0.baseType=DIRECTORY
-0.base=/Users/ETA/Desktop/My stuff/Clients/StartApp accounting/App/StartApp 07.21.20/app/build/intermediates/dex/release/mergeDexRelease/out
-0.path=classes.dex
-0.set=DEX
-count=1
